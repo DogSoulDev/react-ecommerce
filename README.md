@@ -1,3 +1,6 @@
+You can check all the technologies and languages we used in this project at the Ecommerce Presentation.pptx in this repository.
+
+
 ![Fight-Club_2b](https://user-images.githubusercontent.com/81560312/184267435-736fa506-9303-4d95-a1aa-d3baa79b070e.jpg)
 
 <h1 align="center">Fight Club</h1>
