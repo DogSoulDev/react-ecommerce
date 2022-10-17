@@ -1,62 +1,90 @@
 {
-	"products": [
-		{
-			"id": 1,
-			"title": "Poster",
-			"price": 20,
-			"amount": 50,
-			"description": "Bruce Lee T-shirt Yellow Tee top, Material: Polyester",
-			"image": "https://ih1.redbubble.net/image.2758362620.6887/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg",
-			"valoration": 8,
-			"category": "Misc"
-		},
-		{
-			"id": 2,
-			"title": "Bag",
-			"price": 30,
-			"amount": 30,
-			"description": "Vintage Bruce lee Tote Bag ",
-			"image": "https://cdn.shopify.com/s/files/1/0270/0555/0657/products/BRULEEDRAGDUFLBAG-2_1200x.jpg?v=1610454564",
-			"valoration": 7,
-			"category": "Bags"
-		},
-		{
-			"id": 3,
-			"title": "Sandbag",
-			"price": 10,
-			"amount": 20,
-			"description": "Bruce Lee punching bag - boxing bag (filled with chain), 70cm",
-			"image": "https://www.justathlete.es/media/catalog/product/cache/58/thumbnail/9df78eab33525d08d6e5fb8d27136e95/1/4/14BLSBO067.jpg",
-			"valoration": 1,
-			"category": "Sport"
-		},
-		{
-			"id": 4,
-			"title": "Nike",
-			"price": 150,
-			"amount": 20,
-			"description": "Nike Kobe 5 Protro Bruce Lee",
-			"image": "https://sneakers123.s3.amazonaws.com/release/222011/nike-kobe-5-protro-bruce-lee-cd4991-700.jpg",
-			"valoration": 9,
-			"category": "Shoes"
-		},
-		{
-			"id": 5,
-			"title": "Nunchaku",
-			"price": 40,
-			"amount": 150,
-			"description": "Nunchaku Bruce Lee. Material: Wood",
-			"image": "https://cdn.webshopapp.com/shops/184325/files/95278907/enso-martial-arts-shop-yellow-bruce-lee-nunchaku.jpg",
-			"valoration": 7,
-			"category": "Weapons"
-		}
-	],
-	"avatars": [
-		{
-			"url": "https://avatarfiles.alphacoders.com/685/68567.gif"
-		},
-		{
-			"url": ""
-		}
-	]
+  "products" : [
+      {
+        "id":1,
+        "title": "Funko",
+        "price": 20,
+        "amount": 50,
+        "description": "Bruce Lee T-shirt Yellow Tee top, Material: Polyester",
+        "image":"https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Funki.jpg",
+        "valoration": 8,
+        "category":"Misc"
+      },
+      {
+        "id":2,
+        "title": "Nike Hat",
+        "price": 30,
+        "amount": 30,
+        "description": "Vintage Bruce lee Tote Bag ",
+        "image":
+          "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Gorra.jpg",
+        "valoration": 7,
+        "category":"Bags"
+      },
+      {
+        "id":3,
+        "title": "Boxing Helmet",
+        "price": 10,
+        "amount": 20,
+        "description":
+          "Bruce Lee punching bag - boxing bag (filled with chain), 70cm",
+        "image": "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/boxing.jpg",
+        "valoration": 1,
+        "category":"Sport"
+      },
+      {
+        "id":4,
+        "title": "Fast & Furious Glasses",
+        "price": 150,
+        "amount": 20,
+        "description": "Nike Kobe 5 Protro Bruce Lee",
+        "image":
+          "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Glasses.jpg",
+        "valoration": 9,
+        "category":"Shoes"
+      },
+      {
+        "id":5,
+        "title": "Hugo Boss Suit",
+        "price": 40,
+        "amount": 150,
+        "description": "Nunchaku Bruce Lee. Material: Wood",
+        "image":
+          "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Suits.jpg",
+        "valoration": 7,
+        "category":"Weapons"
+      },
+      {
+        "id": 6,
+        "title": "Jason Watch",
+        "price": 159.99,
+        "amount": 4,
+        "description": "Saint Keanu Reeves Personalized watch from Carl F. Bucherer, a silver watch with a 100% genuine crocodile leather strap ",
+        "image": "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Watch.jpg"
+      },
+      {
+        "id": 7,
+        "title": "DVD Collection",
+        "price": 30000.0,
+        "amount": 5,
+        "description": "The ARCH 1s draws influence from both cruiser and street sport riding to create a motorcycle that defies industry categorization. The 1s features the first production single-sided billet aluminum swingarm from ARCH. Rear/mid-mounted foot controls provide a more aggressive riding position.",
+        "image": "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/DVD.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Braun Razor",
+        "price": 149.9,
+        "amount": 7,
+        "description": "STILORD 'Keanu' Bolsa de Viaje Cuero / bolso de viaje vintage | cuero verdadero espécimen único del fabricante de la marca STILORD | bolso de cuero vintage con muchos compartimentos en el interior y el exterior típico de STILORD!",
+        "image": "https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Braun.jpg"
+      }
+  ],
+  "avatars":[
+    {
+      "url": "https://avatarfiles.alphacoders.com/685/68567.gif"
+    },
+    {
+      "url": ""
+    }
+  ]
 }

@@ -1,4 +1,5 @@
 import { Button } from "@nextui-org/react";
+import { ACTIONS } from "../../../reducers/wishlistReducer";
 import "./CartItem.css";
 
 const CartItem = ({
@@ -11,8 +12,8 @@ const CartItem = ({
 	itemQuantity,
 	wish,
 	wishlistCart,
-	setWishlistCart,
-
+	dispatch,
+	notifyToast,
 }) => {
 	const restQuantityItem = () => {
 		if (itemQuantity === 1) return;
@@ -35,10 +36,10 @@ const CartItem = ({
 
 	const itemRemove = () => {
 		if (wish) {
-			const newWishList = wishlistCart.filter(
-				(wishItem) => wishItem.itemId !== itemId,
-			);
-			setWishlistCart(newWishList);
+			dispatch({
+				type: ACTIONS.REMOVE_FROM_WISH_LIST,
+				payload: { itemId: itemId },
+			});
 		} else {
 			const newCart = shoppingCart.filter((item) => item.itemId !== itemId);
 			setShoppingCart(newCart);
@@ -50,9 +51,10 @@ const CartItem = ({
 		shoppingCart.forEach((item) => {
 			if (item.itemId === itemId) {
 				noItemInShoppingCart = true;
+				notifyToast("Already added to Shopping Cart", true);
 			}
 		});
-		console.log(noItemInShoppingCart);
+
 		return noItemInShoppingCart;
 	};
 
@@ -88,13 +90,13 @@ const CartItem = ({
 								-
 							</Button>
 							<p>{itemQuantity}</p>
-							<Button light color='error' auto onClick={addQuantityItem}>
-								+
+							<Button  light color='error' auto onClick={addQuantityItem}>
+								<span>+</span>
 							</Button>
 						</>
 					)}
 					<Button light color='error' auto onClick={itemRemove}>
-						Remove
+					-	Remove
 					</Button>
 				</div>
 			</div>

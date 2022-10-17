@@ -4,11 +4,11 @@ import { Button, Tooltip } from "@nextui-org/react";
 import "./Wishlist.css";
 
 const Wishlist = ({
-	wishlistCart,
-	setWishlistCart,
 	shoppingCart,
 	setShoppingCart,
-	notifyToast,
+	dispatch,
+	wishlistCart,
+	notifyToast
 }) => {
 	const [totalItemWishlist, setTotalItemWishlist] = useState(0);
 
@@ -33,9 +33,10 @@ const Wishlist = ({
 									itemImage={itemImage}
 									itemQuantity={itemQuantity}
 									wishlistCart={wishlistCart}
-									setWishlistCart={setWishlistCart}
+									dispatch={dispatch}
 									shoppingCart={shoppingCart}
 									setShoppingCart={setShoppingCart}
+									notifyToast={notifyToast}
 									wish={true}
 								/>
 							);
@@ -46,15 +47,6 @@ const Wishlist = ({
 				)}
 			</ul>
 			<div className='cart__bottom'>
-				<Tooltip
-					placement='bottom'
-					content='Items on your Wishlist!'
-					color='warning'
-				>
-					<Button flat auto color='warning'>
-						{totalItemWishlist}
-					</Button>
-				</Tooltip>
 			</div>
 		</div>
 	);

@@ -1,25 +1,28 @@
 .main__cart {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	color: black;
-	padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: black;
+  padding: 20px;
+  font-family: "Roboto";
 }
 .cart-title {
-	text-align: center;
-	background: white;
-	padding: 20px;
-	font-size: larger;
-	font-family: sans-serif;
-	font-weight: normal;
-	border-bottom: 1px solid red;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: normal;
+  border-bottom: 1px solid red;
 }
 
 .cart__total {
-	text-align: start;
-	border-top: solid 1px #515151;
-	padding-top: 10px;
+  text-align: start;
+  border-top: solid 1px #515151;
+  padding-top: 10px;
+  font-family: "Roboto";
 }
 .cart__total_price {
-	text-align: start;
+  text-align: start;
+  font-family: "Roboto";
 }

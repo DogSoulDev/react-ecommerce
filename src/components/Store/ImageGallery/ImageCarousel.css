@@ -1,0 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-slide .image-gallery-image {
+  object-fit: cover;
+}

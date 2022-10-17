@@ -6,7 +6,7 @@ import "./BottomSection.css";
 const BottomSection = () => {
 	return (
 		<div className='footer__container'>
-			<p>Copyright &copy; Squad Berners-Lee.</p>
+			<p>Copyright &copy; Copyright © Fight Club Store <span className='alicia' >  "Yo estudié con Alicia"</span></p>
 			<ul className='footer__container_list'>
 				<li>Shop</li>
 				<li>About Us</li>

@@ -11,11 +11,9 @@ const ShoppingCart = ({ shoppingCart, setShoppingCart, notifyToast }) => {
 
 	useEffect(() => {
 		let sumTotalItemPrice = 0;
-
 		shoppingCart.forEach((item) => {
 			sumTotalItemPrice += item.itemPrice * item.itemQuantity;
 		});
-
 		setTotalItemPrice(sumTotalItemPrice);
 	}, [shoppingCart]);
 

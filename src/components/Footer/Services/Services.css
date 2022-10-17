@@ -1,24 +1,39 @@
 .features__container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 2rem;
-	border: 2px solid black;
-	gap: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  background: black;
+  color: white;
+  font-family: "Popins", sans-serif;
 }
 
 h3 {
-	font-weight: bold;
-	font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .firstFeature__container,
 .secondFeature__container,
 .thirdFeature__container,
 .fourthFeature__container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1.7rem;
-	width: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.services_names {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+}
+.services_icons {
+  border: white 1px solid;
+  border-radius: 50%;
+}
+.services_description {
+  line-height: 25px;
+  font-size: 12px;
 }

@@ -1,0 +1,47 @@
+.video_player__container {
+  margin: auto;
+  width: 100%;
+  padding: 80px 17px 170px 17px;
+  background-color: #252525;
+  box-shadow: 0px 20px 40px #8c8c8c42, -20px -10px 40px #9797979c;
+  background-image: url("https://wordpress-797010-2726389.cloudwaysapps.com/wp-content/uploads/2022/08/Jason-statham-Banner3.jpg");
+  background-size: cover;
+}
+
+.video_btn__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.video_btn__container_button {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+}
+
+.play_button {
+  background: #0a0a0a3d;
+  color: white;
+  border: #f80246 5px;
+  width: 140px;
+  border-radius: 60%;
+  height: 140px;
+  margin: auto;
+  padding-left: 18px;
+  padding-top: 18px;
+  border-style: revert;
+}
+
+.watch_video {
+  text-align: center;
+  color: white;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 0px;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}

@@ -1,4 +1,5 @@
 import Home from "./pages/Home/Home";
+import ProductPage from "./pages/ProductPage/ProductPage";
 import Login from "./components/Login/Login";
 import Error404 from "./pages/Error404/Error404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -15,6 +16,7 @@ const Router = () => {
 					<Route path='/' element={<Home />} />
 					<Route path='/success' element={<Home />} />
 					<Route path='/cancel' element={<Home />} />
+					<Route path='/productpage/:id' element={<ProductPage />} />
 					<Route path='*' element={<Error404 />} />
 				</Routes>
 			</BrowserRouter>
