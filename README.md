@@ -1,123 +1,88 @@
-`#react-basics` `#assembler-institute-of-technology` `#master-in-software-engineering`
+You can check all the technologies and languages we used in this project at the Ecommerce Presentation.pptx in this repository.(Download the PowerPoint presentation).
 
-# React E-commerce <!-- omit in toc -->
 
-A demo app to learn the basics of React and to create a shopping cart using hooks.
+![Fight-Club_2b](https://user-images.githubusercontent.com/81560312/184267435-736fa506-9303-4d95-a1aa-d3baa79b070e.jpg)
 
-## Table of Contents <!-- omit in toc -->
+<h1 align="center">Fight Club</h1>
 
-- [Getting Started](#getting-started)
-- [Instructions](#instructions)
-- [Extra steps 💯](#extra-steps-)
-- [Requirements](#requirements)
-- [Available Scripts](#available-scripts)
-- [Author](#author)
-- [License](#license)
+<p align="center">Fight club is an ecommerce specialized in the sale of merchandise, advertising videos and in directing the ranking of the most famous action movie actors in the world, in which we can find Jason Statham, Bruce Lee, Keanu Reeve, among others. If you want to know more about us, we invite you to take a look at our project, and remember the number one rule of the fight club is you don't talk about fight club and rule number 2 of the fight club is you don't talk about fight club. </p>
 
-## Getting Started
+## Links
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
 
-Run `npm i` or `yarn` in the terminal to install the dependencies.
+- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
 
-Then, run `npm run start` or `yarn start` to start up the app.
+- [API](<API Link> "API")
 
-The app will be run by default in the following url: `http://localhost:3000/`
+## Screenshots
+![03_Jason-statham_Orange_01](https://user-images.githubusercontent.com/81560312/184265886-b9657ca1-c195-4d8f-ae21-2b310b34fb15.jpg)
 
-### The repo
-
-First, you will need to clone the repo:
-
-```bash
-$ git clone https://github.com/assembler-school/react-basics-hooks-shopping-cart.git
-```
-
-## Instructions
-
-Throughout this week you will start creating the dashboard of your e-commerce. We will start this pill with the contents given during the class, and scalate as we get deepen into the information.
-
-The `main` branch of the future repos will have the favourite class solution of the previous pill so that you can get started with it, should you get stucked at any stage.
-
-### Instructions
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/blob/main/src/img/repo/react-basics-classes-initial.png?raw=true' width='600'>
-
-Once you have installed the dependencies of the pill you will have to convert all the HTML code from the App.js file to React components such that the code is as reusable and modularized as possible.
-
-Each UI element should be a React component, for example, buttons are UI elements that are reused in multiple places in the app so they should be extracted to React components.
-
-### App features
-
-Once you have modularized the app in components you will have to implement to logic so that you can create an ecommerce app.
-
-#### Rendering the products
-
-The products are stored in the `products.js` file which you should use to render the products to the screen dynamically using a JavaScript loop `map`.
-
-As we go along the first lessons, each product should have the event listeners and methods needed to handle the UI interactions needed such as adding the product to the cart.
-
-#### Add to cart
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
-
-During the first stage, you will be required to have a counter for the quantity of products you would like to have directly on each product. Clicking the `Add to Cart` button should add the product that was clicked to the shopping cart.
-
-By default, the shopping cart will be empty.
-
-The items in the cart should be able to render in the shopping cart when the `Add to Cart` button is clicked to add products to the cart. You can set any default items at the start.
-
-#### Shopping cart
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
-
-Once a product has been added to the cart you should be able to:
-
-- Edit the product quantity using the select element which will update the cart’s total price
-- Remove items from the cart which will update the cart’s total price
-- The cart total price should always be updated so that it represents the total cost of all the items in the cart
-- When the cart is empty you should conditionally render a message inside the cart saying that the cart is empty. Then, when the cart has had items added, you should instead render the cart items and remove the default message.
-
-### State management
-
-You should use React to handle the state management in the app. You cannot use a state management library.
-
-## Extra steps 💯
-
-Once you have finished the initial part of the pill you should implement the following steps to improve your skills:
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
-
-- You should check if the cart item has already been added to the cart to only update the quantity instead of adding it again. You should stablish a quantity limit for each product that could depend upon the stock you stablish on your `products.js` data.
-- Store the items in local storage and load them if the page is reloaded so that the cart items are not lost of page refresh
-- Each time the page is refreshed you should load the cart items from local storage to save them in the React state so that the app renders with the contents from local storage if there are any of them. Otherwise, the cart should display the default message of “Your cart is empty”
-
-## Requirements
-
-- You should extract and modularize all the UI elements to React components
-- The products must be rendered dynamically using JavaScript loops
-- The products should be rendered as React components
-- You cannot use external state management libraries
-- All the components that require state should be created using React
-- Use `functional components` and `setState` methods to update the state of the application
-
-## Available Scripts
+## Available Commands
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start" : "react-scripts start"`,
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
+The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-## Learn More <!-- omit in toc -->
+### `"serve": "node server"`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For running the server file on you can use this command.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run serve`
 
-## License
+## Built With
+
+- JavaScript
+- Node
+- NPM
+- React
+- HTML
+- CSS
+- Hot Toast
+- Firebase
+- Stripe
+- NextUI
+- POSTMAN
+- AWS
+- Asana
+
+## Future Updates
+
+- [ ] Reliable Storage
+
+## Authors
+
+**Ricardo Vieira**
+
+- [Profile](https://github.com/vieiraraba)
+- [Email](mailto:vieiraraba@gmail.com?subject=Hi "Hi!")
+- [Linkedin](https://www.linkedin.com/in/ricardo-vieira-0951b5117/)
+
+**Marcel Barreiros**
+
+- [Profile](https://github.com/marcelbbarreiro)
+- [Email](mailto:marcelbarreiros@gmail.com?subject=Hi "Hi!")
+- [Linkedin](https://www.linkedin.com/in/marcelbarreiro/)
+
+**Javier Fernandez**
+
+- [Profile](https://github.com/DogSoulDev)
+- [Email](mailto:dogsouldev@gmail.com?subject=Hi "Hi!")
+- [Linkedin](https://www.linkedin.com/in/javier-fern%C3%A1ndez-029246233/)
+
+**Alejandro Avila**
+
+- [Profile](https://github.com/alejandroaperez1994g)
+- [Email](subject=Hi "Hi!")
+- [Linkedin](https://www.linkedin.com/in/alejandro-avila-perez-47268017a/)
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
 
 Licensed under the [MIT License](./LICENSE).
