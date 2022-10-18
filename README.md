@@ -9,11 +9,12 @@ You can check all the technologies and languages we used in this project at the 
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
+- [Repo](https://github.com/DogSoulDev/react-ecommerce> "<project-name> Repo")
 
-- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
-
-- [API](<API Link> "API")
+- [API](<https://developers.giphy.com/> "API GIPHY")
+- [Firebase](<https://firebase.google.com/> "FIREBASE")
+- [Stripe](<https://stripe.com/en-es/> "STRIPE")
+- [CSS Tools: Reset CSS](<https://meyerweb.com/eric/tools/css/reset/> "RESET CSS")
 
 ## Screenshots
 ![03_Jason-statham_Orange_01](https://user-images.githubusercontent.com/81560312/184265886-b9657ca1-c195-4d8f-ae21-2b310b34fb15.jpg)
